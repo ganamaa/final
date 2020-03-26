@@ -1,6 +1,6 @@
 # final
 
-#pagina de juegos.
+PAGINA DE JUEGOS
 
 Luz Liliana Herrera Polo. Codigo: 20171020019
 
