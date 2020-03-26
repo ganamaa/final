@@ -1,0 +1,21 @@
+body{
+    width:100%;
+    background-image: url("/static/img/img-paloma/body.jpg");
+}
+
+button {
+    background: burlywood;
+    color: black;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: start;
+  }
+
+  canvas {
+    border:  5px solid; 
+    border-radius: 6px;
+}

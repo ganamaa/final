@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/estilosIndex.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de juegos</title>
+</head>
+<body>
+    <div class="logo">
+        <h4>Pagina de juegos</h4>
+    </div>
+    <div class="contenido">
+        <lu>
+            <div class="buscaflores">
+                <li><a href="{{url_for('buscaFlores')}}">buscaFlores</a></li>
+            </div>
+            <div class="J2048">
+                <li><a href="{{url_for('J2048')}}">2048</a></li>
+            </div>
+            <div class="cazaCalabera">
+                <li><a href="{{url_for('cazaCalabera')}}">cazador de calaberas</a></li>
+            </div>
+            <div class="paloma">
+                <li><a href="{{url_for('paloma')}}">paloma</a></li>
+            </div>
+            <div class="saltarin">
+                <li><a href="{{url_for('saltarin')}}">saltarin</a></li>
+            </div>
+            <div class="correCoronavirus">
+                <li><a href="{{url_for('corre')}}">corre del coronavirus</a></li>
+            </div>
+        </lu>
+    </div>
+</body>
+</html>

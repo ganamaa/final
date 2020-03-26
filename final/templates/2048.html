@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>2048</title>
+        <link href="{{url_for('static',filename='css/estilo2048.css')}}" rel ="stylesheet" type ="text/css">
+        <script src="{{url_for('static',filename='js/2048/Modelo/Admin.js')}}"></script>
+        <script src="{{url_for('static',filename='js/2048/Modelo/Plantilla.js')}}"></script>
+        <script src="{{url_for('static',filename='js/2048/Modelo/Ficha.js')}}"></script>
+        <script src="{{url_for('static',filename='js/2048/Controlador/Teclado.js')}}"></script>
+        <script src="{{url_for('static',filename='js/2048/Vista/Manejo.js')}}"></script>
+        <script src="{{url_for('static',filename='js/2048/launcher.js')}}"></script>
+    </head>
+    <body>
+        <div class="cuadro-general">
+            <div class="cabecera">
+                <p>
+                <strong>Instrucciones:</strong> Mueve las fichas con las flechas para unir los mismos números e intenta llegar a 2048. ¡Buena suerte!
+                </p>
+                <div class="cuadro-puntajes">
+                    <div class="puntaje-actual">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="acerca-del-juego">
+            <a class="reiniciar">Juego nuevo</a>
+        </div>
+        <div class="cuadro-general">
+        <div class="cuadro-tablero">
+            <div class="mensaje-final">
+                <p></p>
+                <div class="cuadro-botones">
+                    <a class="boton-seguir-jugando">Seguir jugando</a>
+                    <a class="boton-reintentar">Reiniciar juego</a>
+                </div>
+            </div>
+            <div class="cuadro-cuadricula">
+            <div class="cuadro-filas">
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+            </div>
+            <div class="cuadro-filas">
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+            </div>
+            <div class="cuadro-filas">
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+            </div>
+            <div class="cuadro-filas">
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+                <div class="cuadro-celda"></div>
+            </div>
+        </div>
+             <div class="cuadro-ficha"></div>
+        </div>
+        </div>
+    </body>
+</html>
